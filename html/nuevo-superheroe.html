@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo superheroe</title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    <link href="formulario.css">
+    <h6>¡20% de descuento en todos los productos!</h6>
+    <div class="anuncio">
+    <img src="anuncio.png"> Nombre Tienda
+    </div>
+    <div class="caja">
+    <a>Contacto</a>
+    <a>Registrarme</a>
+    <a>Ingresar</a>
+    </div>
+    <form action="/login" method="post" >
+        <section class="card">
+    <h1>Añadí tu súper</h1>
+    <h3>Agrega tu personaje favorito completando las opciones</h3>
+    <div>
+    <label for="name">Nombre
+        <div>
+        <input type="text" name="user" id="nombre">
+        </div>
+    </label>
+
+    <label for="spicies">Especie
+        <div>
+        <input type="text" name="spicies" id="spicies">
+        </div>
+    </label>
+
+    </div>
+ 
+    <div>
+        <label for="date">Fecha
+            <div>
+        <input type="date" name="date" id="date">
+        </div>
+        </label>
+
+        <label for="photo">Agrega una foto
+         <section>
+            <input type="file" name="avatar" accept=".jpg">
+            </section>
+        </label>
+    </div>
+
+    
+        
+            <span>
+                
+                <textarea name="comentarios" id="comenatrio" name="comentario">Descripción</textarea>
+                
+                <h2>Poderes</h2>
+                <ul>
+                <label for="poderes">
+                <li><input type="checkbox" name="poderes">Volar</li>
+                <li><input type="checkbox" name="super" id="poderes">Superpoderes</li>
+                <li><input type="checkbox" name="laser" id="laser">Vista de rayo láser</li>
+                <li><input type="checkbox" name="billetera" id="billetera">Billetera gorda</li>
+            </ul>
+            </label>
+            <hr>
+
+             <h2>Tipo de personaje</h2>
+
+            <label for="heroe">
+                <input type="radio" name="heroe" id="heroe">Héroe / heroina
+                <input type="radio" name="villano" id="villano">Villano / Villana
+
+            </label>
+            <div>
+        <button>Añadir</button>
+            </section>
+              <h6>Todos los derechos reservados a FRONT END 1</h6>
+                
+              
+            
+            
+    <h2></h2>
+
+    </form>
+</body>
+</html>
